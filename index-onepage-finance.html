@@ -26,6 +26,13 @@
 <!-- CSS Base -->
 <link id="theme" rel="stylesheet" href="assets/css/themes/theme-bottle.css" />
 
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
+<style type="text/css">
+/*#mc_emb2ed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
 </head>
 
 <body class="one-page header-absolute">
@@ -35,7 +42,18 @@
 <!-- Loader / End -->
 
 <!-- Header -->
-<header id="header" class="absolute light">
+<header id="header" class="absolute fullwidth light">
+
+	<!-- Top Bar -->
+	<div id="top-bar">
+		<div class="module left">Black Planet Products - Same Planet...Different World</div>
+		<div class="module right">
+			<ul class="list-inline">
+				<li><i class="i-before ti-email text-primary"></i><a href="mailto:info@blackplanetproducts.com">info@blackplanetproducts.com</a><br></li>
+				<li><i class="i-before ti-mobile text-primary"></i>(773) 468-6457</li>
+			</ul>
+		</div>
+	</div>
 
 	<!-- Navigation Bar -->
 	<div id="nav-bar">
@@ -44,7 +62,7 @@
 			<!-- Logo -->
 			<a class="logo-wrapper" href="index.html">
 				<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="Black Planet Products">
-				<!-- <img class="logo logo-light" src="assets/img/logo-light.png" alt="Okno"> -->
+
 			</a>
 
 			<nav class="module-group right">
@@ -55,57 +73,10 @@
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<li><a href="#location">Location</a></li>
+						<li><a href="#contact">Location</a></li>
 						<li><a href="https://www.amazon.com/shops/BlackPlanetProducts">Shop</a></li>
 					</ul>
 				</div>
-
-				<!-- Language Menu -->
-				<!-- <div class="module language left">
-					<ul class="nav nav-primary">
-						<li class="has-dropdown">
-							<a href="#">Eng</a>
-							<ul>
-								<li><a href="#">English</a></li>
-								<li><a href="#">Polish</a></li>
-								<li><a href="#">Spanish</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div> -->
-
-				<!-- Shopping Cart -->
-				<!-- <div class="module shopping-cart has-popup left">
-					<span class="trigger"><i class="ti-shopping-cart"></i></span>
-					<div class="popup cart">
-						<ul class="cart-items">
-							<li>
-								<a href="#" class="image"><img src="assets/img/shop/product01.jpg" alt=""></a>
-								<div class="content">
-									<a href="#">The Camera</a>
-									<span class="price">$39.98</span>
-								</div>
-							</li>
-							<li>
-								<a href="#" class="image"><img src="assets/img/shop/product02.jpg" alt=""></a>
-								<div class="content">
-									<a href="#">The Glasses</a>
-									<span class="price">$39.98</span>
-								</div>
-							</li>
-						</ul>
-						<div class="cart-bottom">
-							<a href="shop-cart.html" class="btn btn-filled btn-primary btn-sm btn-block">Go to Cart <i class="i-after ti-arrow-right"></i></a>
-						</div>
-					</div>
-					<span class="notification">2</span>
-				</div> -->
-
-				<!-- Search -->
-				<!-- <div class="module search left">
-					<span class="trigger" data-toggle="search-bar"><i class="ti-search"></i></span>
-				</div> -->
-
 			</nav>
 
 			<!-- Menu Toggle -->
@@ -197,171 +168,66 @@
 		</div>
 	</section>
 
-	<!-- Section / Services -->
-	<section id="services" class="bg-grey">
-		<div class="container">
-			<h5 class="mb-40">Our Services</h5>
-			<div class="row">
-				<div class="col-md-4">
-					<!-- Service -->
-					<div class="feature feature-1 boxed animated" data-animation="fadeInUp">
-						<span class="icon icon-primary"><i class="ti-pie-chart"></i></span>
-						<h5>Investments</h5>
-						<p>Nunc lacinia finibus elit, eu auctor ex tincidunt non. Donec nibh diam, elementum vel lobortis ut, tincidunt ut ex. </p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<!-- Service -->
-					<div class="feature feature-1 boxed animated" data-animation="fadeInUp" data-animation-delay="300">
-						<span class="icon icon-primary"><i class="ti-pulse"></i></span>
-						<h5>Financial Insurance</h5>
-						<p>Nunc lacinia finibus elit, eu auctor ex tincidunt non. Donec nibh diam, elementum vel lobortis ut, tincidunt ut ex. </p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<!-- Service -->
-					<div class="feature feature-1 boxed animated" data-animation="fadeInUp" data-animation-delay="600">
-						<span class="icon icon-primary"><i class="ti-comments"></i></span>
-						<h5>Financial Advising</h5>
-						<p>Nunc lacinia finibus elit, eu auctor ex tincidunt non. Donec nibh diam, elementum vel lobortis ut, tincidunt ut ex. </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Section / Why Us -->
-	<section id="why-us" class="bg-grey pt-0 protrude">
-		<div class="container">
-			<hr class="sep-line sep-10 mb-90">
-			<h5 class="mb-40">Why Us?</h5>
-			<div class="row">
-				<div class="col-md-4">
-					<!-- Service -->
-					<div class="feature feature-3">
-						<img src="assets/img/photos/classic_service01.jpg" alt="">
-						<div class="feature-content text-center bg-white">
-							<h6 class="mb-5 text-muted text-uppercase">Why Us?</h6>
-							<h5>Great Team</h5>
-							<p class="mb-0">Nunc lacinia finibus elit, eu auctor ex tincidunt non. Donec nibh diam, elementum vel lobortis ut, tincidunt ut ex. </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<!-- Service -->
-					<div class="feature feature-3">
-						<img src="assets/img/photos/classic_service02.jpg" alt="">
-						<div class="feature-content text-center bg-white">
-							<h6 class="mb-5 text-muted text-uppercase">Why Us?</h6>
-							<h5>Huge Experience</h5>
-							<p class="mb-0">Nunc lacinia finibus elit, eu auctor ex tincidunt non. Donec nibh diam, elementum vel lobortis ut, tincidunt ut ex. </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<!-- Service -->
-					<div class="feature feature-3">
-						<img src="assets/img/photos/classic_service03.jpg" alt="">
-						<div class="feature-content text-center bg-white">
-							<h6 class="mb-5 text-muted text-uppercase">Why Us?</h6>
-							<h5>Creative Ideas</h5>
-							<p class="mb-0">Nunc lacinia finibus elit, eu auctor ex tincidunt non. Donec nibh diam, elementum vel lobortis ut, tincidunt ut ex. </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Section / Clients -->
-	<section id="clients" class="dark bg-primary">
-
-		<div class="container">
-			<h5 class="mb-40">Our Clients</h5>
-			<div class="carousel row" data-items="2" data-pagination="true" data-navigation="true">
-				<div class="col-lg-10 col-xs-12">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Everything was made <strong>perfectly</strong>. It was my the best descision to pick this author. Client for a life!
-						</div>
-						<div class="author with-image">
-							<img src="assets/img/avatars/avatar01.jpg" alt="">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-10 col-xs-12">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Really <strong>cool stuff</strong>! I am sure I will use it again in my projects!
-						</div>
-						<div class="author with-image">
-							<img src="assets/img/avatars/avatar02.jpg" alt="">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-10 col-xs-12">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Everything was made <strong>perfectly</strong>. It was my the best descision to pick this author. Client for a life!
-						</div>
-						<div class="author with-image">
-							<img src="assets/img/avatars/avatar01.jpg" alt="">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-10 col-xs-12">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Really <strong>cool stuff</strong>! I am sure I will use it again in my projects!
-						</div>
-						<div class="author with-image">
-							<img src="assets/img/avatars/avatar02.jpg" alt="">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section>
-
 	<!-- Section / Contact -->
 	<section id="contact" class="section-double right bg-secondary dark">
 
 		<div class="col-md-6 image">
-			<div id="google-map" class="bg-map animated" data-animation="fadeIn" data-latitude="40.758895" data-longitude="-73.985131" data-style="light"></div>
+			<div id="google-map" class="bg-map animated" data-animation="fadeIn" data-latitude="41.721407" data-longitude="-87.626596" data-style="light"></div>
 		</div>
 		<div class="col-md-6 content">
-			<div class="bg-icons">
-		    	<i class="ti-email"></i>
-		    	<i class="ti-mobile"></i>
-		    	<i class="ti-comment"></i>
-		    </div>
 			<div class="row v-center-items">
 	    		<div class="col-md-4 col-md-push-1 text-right">
-	    			<img src="assets/img/avatars/avatar03.jpg" class="img-circle mb-30" alt="">
-	    			<h2>Do not hesitate to contact us!</h2>
+	    			<img src="assets/img/avatars/avatar09.jpg" class="img-circle mb-30" alt="">
+	    			<h2>Stop by or contact us today</h2>
 	    		</div>
 	    		<div class="col-md-4 col-md-push-2">
 	    			<address>
 						<strong>Address:</strong><br>
-						A795 Folsom Ave, Suite 600<br>
-						San Francisco, CA 94107<br><br>
+						107 W. 95th St.<br>
+						Chicago, IL 60628<br><br>
 						<strong>Phone:</strong><br>
-						+48 221 909 99<br><br>
+						(773) 468-6457<br><br>
 						<strong>E-mail:</strong><br>
-						<a href="#">your.name@example.com</a><br>
+						<a href="mailto:info@blackplanetproducts.com">info@blackplanetproducts.com</a><br>
 					</address>
 	    		</div>
 	    	</div>
 		</div>
+
+	</section>
+
+	<!-- Section / Subscribe -->
+	<section id="subscribe" class="bg-secondary dark">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-push-2">
+					<h2 class="text-center mb-5">Hear about specials and new products first!</h2>
+					<p class="lead text-muted text-center">We only deliver value to your inbox, no junk mail.</p>
+					<form action="http://Blackplanetproducts.us16.list-manage.com/subscribe/post-json?u=79cc5f8feb5c34afc4c390389&amp;id=458ef044b4"
+
+					id="sign-up-form-2" class="sign-up-form validate-form mt-40" method="post"
+					data-message-error="Opps... Something went wrong - please try again later"
+					data-message-success="Yeah! You will recieve a confirmation email soon..."
+					>
+						<div class="row">
+
+							<div class="col-md-8">
+								<input type="hidden" name="u" value="ed47dbfe167d906f2bc46a01b">
+	                			<input type="hidden" name="id" value="24ac8a22ad">
+								<input type="email"  name="MERGE0" size="25" value="" class="form-control input-2 input-lg" placeholder="Your e-mail..." required>
+							</div>
+
+							<div class="col-md-4">
+								<button type="submit" class="btn btn-lg btn-filled btn-submit btn-block"><span>Sign Up</span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
 
 	</section>
 
@@ -374,13 +240,13 @@
 	<div class="container">
 		<div class="row pb-60">
 			<div class="col-sm-6 text-muted">
-				Copyright Okno 2016©. All rights reserved.<br>
-				Made with love by suelo.pl
+				Black Planet Products Copyright 2016 ©. All rights reserved.<br>
+				<p>Thoughtfully Developed by <a href="http://lataeviaberry.com/" target="_blank">LaTaevia Berry</a></p>
 			</div>
 			<div class="col-sm-6 text-right">
-				<a href="#" class="icon icon-circle icon-facebook icon-xs"><i class="fa fa-facebook"></i></a>
-				<a href="#" class="icon icon-circle icon-twitter icon-xs"><i class="fa fa-twitter"></i></a>
-				<a href="#" class="icon icon-circle icon-google-plus icon-xs"><i class="fa fa-google-plus"></i></a>
+				<a href="https://www.facebook.com/yourblackplanet/" target="_blank" class="icon icon-circle icon-facebook icon-xs"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/yourblackplanet" target="_blank" class="icon icon-circle icon-twitter icon-xs"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/yourblackplanet/" target="_blank" class="icon icon-circle icon-instagram icon-xs"><i class="fa fa-instagram"></i></a>
 			</div>
 		</div>
 	</div>
